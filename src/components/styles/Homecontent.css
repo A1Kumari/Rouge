@@ -1,0 +1,133 @@
+/* HomeContent Container */
+.container {
+    font-family: 'Lato', sans-serif;
+    color: #391306; /* Puce */
+    padding: 2rem 0;
+}
+
+/* Title Styling */
+h1.display-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #aa1945; /* Rose Red */
+}
+
+/* Subtitle Styling */
+p.lead {
+    font-size: 1.25rem;
+    color: #f1ced4; /* Rose Quartz */
+    margin-bottom: 2rem;
+}
+
+/* Get Started Button */
+.btn-success {
+    background-color: #aa1945; /* Rose Red */
+    border: none;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #391306; /* Puce */
+    color: #f9ccd3; /* Light Rose Quartz */
+}
+
+/* Align Content and Image in One Line */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+/* Image Styling */
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Center Image and Content Horizontally */
+.text-center {
+    text-align: left;
+}
+
+.text-center + section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* HomeContent Container */
+.container {
+    font-family: 'Lato', sans-serif;
+    color: #391306; /* Puce */
+    padding: 2rem 0;
+    
+}
+
+/* Title Styling */
+h1.display-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 8rem;
+    font-weight: bold;
+    color: #aa1945; /* Rose Red */
+    text-align: left;
+    margin-left: 2rem;
+}
+
+/* Subtitle Styling */
+p.lead {
+    font-size: 1.5rem;
+    color: #f1ced4; /* Rose Quartz */
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Get Started Button */
+.btn-success {
+    background-color: #aa1945; /* Rose Red */
+    border: none;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    margin-left: 2rem;
+}
+
+.btn-success:hover {
+    background-color: #391306; /* Puce */
+    color: #f9ccd3; /* Light Rose Quartz */
+}
+
+/* Align Content and Image in One Line */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+/* Image Styling */
+
+/* Center Image and Content Horizontally */
+.text-center {
+    text-align: left;
+}
+
+.text-center + section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
