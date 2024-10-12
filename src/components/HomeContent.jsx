@@ -7,13 +7,11 @@ const HomeContent = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-6 text-center">
+                <div className="col-md-6 ">
                     <div className="p-4">
                         <h1 className="display-4">Makeup Try-on</h1>
                         <p className="lead">~See Your True Beauty Unveiled</p>
-
                         <div className="mt-4">
-                            <p className="mb-3">Ready to Unveil Your True Self?</p>
                             <button className="btn btn-success btn-lg">Get Started Now</button>
                         </div>
                     </div>

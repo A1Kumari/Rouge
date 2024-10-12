@@ -8,15 +8,15 @@ function Process() {
     return (
             <div className="container">
             <div className="row">
-                <div className="">
+               
                 <div className="image-container">
                 <img src={Hero} className="img-fluid rounded shadow" alt="Hero Image" />
                 <img src={img1} className="small-image" alt="Feature 1" />
                 <img src={img2} className="small-image" alt="Feature 2" />
                 <img src="" className="small-image" />
             </div>
-                </div>
-                <div className="">
+               
+               
                 <div className="content-wrapper">
                 <h2>How It's Done</h2>
                 <p className="tagline">A seamless process to enhance your natural beauty.</p>
@@ -35,7 +35,7 @@ function Process() {
                     </div>
                 </div>
             </div>
-                </div>
+               
             </div>
         </div>
     );

@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-light bg-white shadow-lg">
             <div className="container-fluid">
                 {/* Logo */}
-                <Link className="navbar-brand text-gray-800 font-bold" to="/">BrandName</Link>
+                <Link className="navbar-brand text-gray-800 font-bold" to="/">Rouge</Link>
 
                 {/* Mobile Menu Button */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,6 +25,9 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/healthcare">Healthcare</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Occasions">Occasions</Link>
                         </li>
                     </ul>
                 </div>

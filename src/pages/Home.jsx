@@ -11,12 +11,11 @@ function HomePage() {
     return (
         <>
             <Navbar />
-            <section className="py-5">
+            <section >
                 <HomeContent />
                 <Features />
                 <Process />
-                
-                <Footer />
+               <Footer/>
             </section>
 
            

@@ -8,6 +8,7 @@ import AcneDetectionPage from './pages/AcneDetection';
 import ShadesTryOnPage from './pages/ShadesTryOn';
 import FeaturesPage from './pages/FeaturesPage'; // Import the Features page
 import HealthcarePage from './pages/Healthcare'; // Import the Healthcare page
+import Occasions from './pages/Occasions';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/acne-detection" element={<AcneDetectionPage />} />
           <Route path="/shades-try-on" element={<ShadesTryOnPage />} />
-          <Route path="/features" element={<FeaturesPage />} /> {/* Add route for Features page */}
-          <Route path="/healthcare" element={<HealthcarePage />} /> {/* Add route for Healthcare page */}
+          <Route path="/features" element={<FeaturesPage />} /> 
+          <Route path="/healthcare" element={<HealthcarePage />} /> 
+          <Route path="/Occasions" element={<Occasions/>} /> 
         </Routes>
       </div>
     </Router>
