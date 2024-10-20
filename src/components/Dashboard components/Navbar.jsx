@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaUserCircle } from 'react-icons/fa'; // User icon for profile
+// import { FaUserCircle } from 'react-icons/fa'; // User icon for profile
 import './styles/Navbar.css';
 
 const Navbar = ({ userName }) => {
@@ -10,7 +10,7 @@ const Navbar = ({ userName }) => {
                     <h1>Project Name</h1>
                 </div>
                 <div className="navbar-profile">
-                    <FaUserCircle size={30} color="#FFFFFF" />
+                    {/* <FaUserCircle size={30} color="#FFFFFF" /> */}
                     <span className="username">{userName}</span>
                     <div className="dropdown">
                         <button className="dropdown-btn">Logout</button>

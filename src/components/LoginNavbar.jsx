@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaUserCircle } from 'react-icons/fa';
+// import { FaUserCircle } from 'react-icons/fa';
 import './styles/DashboardNavbar.css';
 
 const Navbar = () => {
@@ -22,7 +22,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="user-section" onClick={toggleDropdown}>
-                    <FaUserCircle className="user-icon" size={28} />
+                    {/* <FaUserCircle className="user-icon" size={28} /> */}
                     {isDropdownOpen && (
                         <div className="dropdown-menu">
                             <button className="dropdown-item" onClick={handleLogout}>Logout</button>
