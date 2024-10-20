@@ -1,0 +1,30 @@
+/* Footer Styles */
+.footer {
+    background-color: #391306; /* Dark Puce */
+    padding: 20px;
+    color: #FFFFFF; /* White text */
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer-links a {
+    margin-left: 15px;
+    color: #F9CCD3; /* Light Rose Quartz for footer links */
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #AA1945; /* Rose Red on hover */
+}

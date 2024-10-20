@@ -1,0 +1,93 @@
+Container
+.profile-container {
+    font-family: 'Lato', sans-serif;
+    color: #391306; /* Puce */
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Title Styling for Username */
+h1.display-4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #aa1945; /* Rose Red */
+    text-align: left;
+    margin-left: 2rem;
+}
+
+/* Subtitle for Additional User Info */
+p.lead {
+    font-size: 1.25rem;
+    color: #f1ced4; /* Rose Quartz */
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Logout Button */
+.btn-logout {
+    background-color: #aa1945; /* Rose Red */
+    border: none;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    margin-left: 2rem;
+}
+
+.btn-logout:hover {
+    background-color: #391306; /* Puce */
+    color: #f9ccd3; /* Light Rose Quartz */
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Profile Images Styling */
+.profile-img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: float 4s ease-in-out infinite;
+}
+
+/* Center Profile Image */
+.profile-img-center {
+    left: 140px;
+    top: 140px;
+    z-index: 2;
+}
+
+/* Top-left Floating Image */
+.profile-img-top-left {
+    left: 30px;
+    top: 50px;
+    animation-delay: 0.2s;
+}
+
+/* Bottom-right Floating Image */
+.profile-img-bottom-right {
+    left: 250px;
+    top: 250px;
+    animation-delay: 0.4s;
+}

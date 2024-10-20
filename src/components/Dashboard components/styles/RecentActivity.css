@@ -1,0 +1,43 @@
+.recent-activity-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9ccd3; /* Rose Quartz */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #aa1945; /* Rose Red */
+}
+
+.recent-activity-list {
+    margin-top: 20px;
+}
+
+.activity-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #391306; /* Puce */
+}
+
+.activity-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.activity-item strong {
+    color: #aa1945; /* Rose Red */
+}
+
+.activity-item:hover {
+    background-color: #fbe2e6; /* Very light pink for hover effect */
+}

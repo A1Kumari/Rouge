@@ -1,0 +1,103 @@
+/* Navbar Container */
+.navbar {
+    padding: 1rem;
+    background-color: red; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Brand Name (Project Name) */
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #391306; /* Dark Puce */
+    font-weight: 700;
+}
+
+/* Centered Navbar Links (For any additional links) */
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    color: #391306; /* Dark Puce */
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #aa1945; /* Rose Red on hover */
+}
+
+/* Profile Section with User Icon and Name */
+.navbar-profile {
+    display: flex;
+    align-items: center;
+}
+
+.username {
+    font-family: 'Lato', sans-serif;
+    color: #391306; /* Dark Puce */
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+/* Profile Icon */
+.profile-icon {
+    font-size: 2rem;
+    color: #391306; /* Dark Puce */
+}
+
+/* Dropdown for Logout */
+.dropdown {
+    margin-left: 15px;
+    position: relative;
+}
+
+.dropdown-btn {
+    background-color: #aa1945; /* Rose Red for the logout button */
+    color: #fff; /* White text */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-btn:hover {
+    background-color: #391306; /* Dark Puce on hover */
+    color: #f9ccd3; /* Light Rose Quartz for the text on hover */
+}
+
+/* Mobile Menu Button (For future mobile responsiveness) */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    color: #391306;
+}
+
+/* Media Queries for Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar-profile {
+        margin-top: 10px;
+    }
+}
